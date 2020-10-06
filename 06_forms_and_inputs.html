@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" width="device-width, initial-scale=1.0">
+	<meta name="description" content="This webpage shows forms and inputs">
+	<title>Forms and inputs</title>
+</head>
+<body>
+	<form action="process.php" style="
+    width: 80%;
+    text-align: center;
+    margin: auto;
+">
+		<!--for name-->
+		<div>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" name="Name" value="Shivangi Tripathi" style="
+    width: 100%;
+">
+		</div>
+		<!--for email-->
+		<div>
+			<label for="email">Email</label><br>
+			<input type="email" id="email" name="Email" placeholder="enter the email" style="
+    width: 100%;"> 
+		</div>
+		<!--for text -->
+		<div>
+			<label for="message">Message</label><br>
+			<textarea id="message" name="Message" row="7" style="
+    width: 100%;"></textarea> 
+		</div>
+		<!--for date of birth-->
+		<div>
+			<label for="birthdate">Birthdate</label><br>
+			<input type="date" id="birthdate" name="Birthdate">
+		</div>
+		<!--for age-->
+		<div>
+			<label for="age">Age</label><br>
+			<input type="number" id="age" name="Age">
+		</div>
+		<!--for gender selection-->
+		<div>
+			<label for="sex">Sex</label><br>
+			<select id="sex" name="Sex">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select> 
+		</div>
+		<!--for single selection-->
+		<div>
+			<label for="membership">Membership</label>
+			<input type="radio" name="membership" value="simple" id="membership"> Simple
+			<input type="radio" name="membership" value="standard" id="membership"> Standard
+			<input type="radio" name="membership" value="super" id="membership"> Super
+		</div>
+		<!--for checkbox so that we can select all-->
+		<div>
+			<label for="likes">I like ...</label>
+			<input type="checkbox" name="likes" value="car" id="likes"> Car
+			<input type="checkbox" name="likes" value="bike" id="likes"> Bike
+			<input type="checkbox" name="likes" value="plane" id="likes"> Plane
+		</div>
+		<div>
+			<!--for submit-->
+			<input type="submit" name="Submit">
+			<!--for reset-->
+			<button type="reset"> Reset</button>
+
+		</div>
+    </form>
+   </body>
+  </html>
