@@ -1,0 +1,12 @@
+.background{
+    background-color: rgb(2, 2, 54);
+    width: 40%;
+    height: 100%;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+}
