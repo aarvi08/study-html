@@ -27,7 +27,7 @@ h1{
     padding: 40px 40px 40px 0px;
     font-size: 40px;
 }
-.container{
+.container {
     width: 47.9%;
     height: 200px;
     background-color: #EEF0F7;
@@ -36,17 +36,25 @@ h1{
     vertical-align: top;
     border-radius: 10px;
     text-align: center;
-    padding-top: 50px;.
+    padding-top: 50px;
+    color: rgb(49, 144, 223);
 }
+
 .skill1{
     display: inline-block;
     max-width: 160px;
+    font-size: 62px;
 }
 .skill{
     vertical-align: top;
     display: inline-block;
     max-width: 300px;
     text-align: left;
-    margin-top: 15px;
     margin-left: 15px;
 }
+.ex{
+    color: white;
+}
+
+
+
