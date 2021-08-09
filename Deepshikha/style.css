@@ -1,0 +1,21 @@
+.carousel-resizing {
+    width: 93%;
+    margin: auto;
+}
+
+.font-heading {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 600;
+}
+.content-style {
+    text-align: justify;
+    font-family: fantasy;
+}
+.image-height{
+    height: 100%;
+}
+.quotes {
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 0%;
+}

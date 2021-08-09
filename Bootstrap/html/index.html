@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="/bootrstrap/css/bootstrap.css" />
+    <style>
+      .bg-aqua {
+    background-color: aqua;
+}
+.navbar-red .nav-link{
+    color: rgb(32, 31, 31);
+}
+.futer {
+    padding: 50px;
+    background-color: rgb(241, 240, 240);
+}
+a {
+    color: rgb(92, 90, 90);
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin-left: 0%;
+}
+th{
+    padding: 30px;
+    font-size: larger;
+}
+.description :hover {
+    background-color: aqua; 
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-red bg-aqua">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Student Login</a></li>
+                      <li><a class="dropdown-item" href="#">Faculty Login</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!-- HOME WORK IS TO COMPLETE FOOTER-->
+    <footer>
+      <section class="futer">
+        <table style="width:100%" ;>
+          <thead style="color: rgb(83, 82, 82); ">
+            <th class="description" scope="col"><a class="navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg" alt="" width="30"
+                  height="24" >
+              </a>Bootstrap</th>
+            <th>Links</th>
+            <th>Guides</th>
+            <th>Projects</th>
+            <th>Community</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="color: rgb(151, 150, 150); width: 350px;">
+                Designed and built with all the love in the world by the <a href="">Bootstrap team</a> with the help of <a
+                  href="">our contributors</a>.
+                <br> <br>
+                <p>Code licensed <a href="">MIT</a>, docs <a href="">CC BY 3.0.</a></p>
+                <p>Currently v5.0.1.</p>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Docs</a></li>
+                  <li><a href="">Examples</a></li>
+                  <li><a href="">Themes</a></li>
+                  <li><a href="">Blogs</a></li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="">Getting Started</a></li>
+                  <li><a href="">Starter Template</a></li>
+                  <li><a href="">Webpack</a></li>
+                  <li><a href="">Parcel</a></li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="">Bootstrap 5</a></li>
+                  <li><a href="">Bootstrap 4</a></li>
+                  <li><a href="">Icons</a></li>
+                  <li><a href="">RFS</a></li>
+                  <li><a href="">npm starter</a></li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="">Issues</a></li>
+                  <li><a href="">Discussions</a></li>
+                  <li><a href="">Corporate responsers</a></li>
+                  <li><a href="">Open collective</a></li>
+                  <li><a href="">Slack</a></li>
+                  <li><a href="">Stack overflow</a></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </footer>
+</body>
+
+</html>

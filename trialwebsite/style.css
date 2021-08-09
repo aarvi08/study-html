@@ -1,0 +1,25 @@
+.background{
+    background-color: rgb(3, 3, 88);
+    width: 40%;
+    height: 100%;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+* {box-sizing:border-box}
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #808080;} 

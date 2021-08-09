@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="carousel slide" id="newCarousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button
+                type="button"
+                data-bs-target="#newCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button
+                type="button"
+                data-bs-target="#newCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+            </button>
+            <button
+                type="button"
+                data-bs-target="#newCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3">
+            </button>
+        </div>
+
+        <div class="carousel-inner" style="height: 500px;">
+            <div class="carousel-item active">
+                <img
+                src="https://cdn.pixabay.com/photo/2020/03/27/15/33/norway-4973935_960_720.jpg"
+                class="w-100"
+                alt="typerwrite image">
+            </div>
+            <div class="carousel-item">
+                <img
+                src="https://cdn.pixabay.com/photo/2020/10/11/16/05/cliffs-5646320_960_720.jpg"
+                class="w-100"
+                alt="typerwrite image">
+            </div>
+            <div class="carousel-item">
+                <img
+                class="w-100"
+                src="https://cdn.pixabay.com/photo/2021/05/14/21/49/elephants-6254556_960_720.jpg"
+                alt="typerwrite image">
+            </div>    
+        </div>
+
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#newCarousel"
+            data-bs-slide-to="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#newCarousel"
+            data-bs-slide-to="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-red bg-aqua">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+              alt=""
+              width="30"
+              height="24"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Student Login</a></li>
+                  <li><a class="dropdown-item" href="#">Faculty Login</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div
+        id="testing"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#testing"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#testing"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#testing"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner" style="height: 500px;">
+          <div class="carousel-item active">
+            <img
+            src="https://cdn.pixabay.com/photo/2020/03/27/15/33/norway-4973935_960_720.jpg"
+            class="d-block w-100"
+            alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2020/10/11/16/05/cliffs-5646320_960_720.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2021/05/14/21/49/elephants-6254556_960_720.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testing"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testing"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <img
+          class="mb-5"
+          src="typewriter-801921.jpg"
+          alt="Typewriter"
+          style="height: 100px"
+        />
+        <h1>Start Bootstrap</h1>
+      </div>
+    </section>
+    <!-- HOME WORK IS TO COMPLETE FOOTER-->
+    <footer>
+      <section class="bg-light-grey">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-12 col-md-12 col-lg-4 pt-5">
+              <h5>
+                <img
+                  src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-black.svg"
+                  alt=""
+                  width="30"
+                  height="24"
+                />
+                Bootstrap
+              </h5>
+              <p>
+                Designed and built with all the love in the world by the
+                <a href="">Bootstrap team</a> with the help of
+                <a href="">our contributors</a>. <br />
+                Code licensed <a href="">MIT</a>, docs
+                <a href="">CC BY 3.0.</a> <br />
+                Currently v5.0.1.
+              </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 pt-5">
+              <h5>Links</h5>
+              <ul class="ps-0">
+                <li><a href="">Home</a></li>
+                <li><a href="">Docs</a></li>
+                <li><a href="">Examples</a></li>
+                <li><a href="">Themes</a></li>
+                <li><a href="">Blogs</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 pt-5">
+              <h5>Guides</h5>
+              <ul class="ps-0">
+                <li><a href="">Getting Started</a></li>
+                <li><a href="">Starter Template</a></li>
+                <li><a href="">Webpack</a></li>
+                <li><a href="">Parcel</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 pt-5">
+              <h5>Projects</h5>
+              <ul class="ps-0">
+                <li><a href="">Bootstrap 5</a></li>
+                <li><a href="">Bootstrap 4</a></li>
+                <li><a href="">Icons</a></li>
+                <li><a href="">RFS</a></li>
+                <li><a href="">npm starter</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 pt-5">
+              <h5>Community</h5>
+              <ul class="ps-0">
+                <li><a href="">Issues</a></li>
+                <li><a href="">Discussions</a></li>
+                <li><a href="">Corporate responsers</a></li>
+                <li><a href="">Open collective</a></li>
+                <li><a href="">Slack</a></li>
+                <li><a href="">Stack overflow</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

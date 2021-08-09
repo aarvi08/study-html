@@ -1,0 +1,199 @@
+<!--20/04/2021 , Shivangi Tripathi-->  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Page</title>
+
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            line-height: 1.5em;
+        }
+
+        #header {
+            background: black;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100px;
+        }
+
+        #contentwrapper {
+            float: left;
+            width: 100;
+        }
+
+        #contentcolumn {
+            margin: 0 230px 0 230px;
+        }
+
+        #leftcolumn {
+            float: left;
+            width: 230px;
+            margin-left: -100%;
+            background: #24c8ff;
+        }
+        
+        #rightcolumn {
+           float: left;
+           width: 230px;
+           margin-left: -230px;
+           background: #FFFB00;
+        }
+
+        .innertext {
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5e5e5e;
+        }
+
+        #footer {
+            clear: left;
+            width: 100%; 
+            background: black;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 4px;
+        }
+
+        /*   Navigation bar   */
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #808080;
+        }
+
+        .active {
+            background-color: #0099ff;
+        }
+        
+        /* Responsive layout CSS */
+
+        @media (max-width: 840px) {
+            #leftcolumn {
+                margin-left: -100%;
+            }
+            #rightcolumn {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+                clear: both;
+            }
+            #contentcolumn {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            #leftcolumn {
+            float: none;
+            width: 100%;
+            margin-left: 0;
+            clear: both;
+        }
+            #contentcolumn {
+            margin-right: 0;
+     }
+ }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="header">
+
+            <ul style="display: inline;">
+            <li><a class="active" href="#home"> Home </a></li>
+            <li><a href="#news"> About </a></li>
+            <li><a href="#contact"> News</a></li>
+            <li><a href="#about"> Contact </a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div>
+    <div id="contentwrapper">
+        <div id="contentcolumn">
+            <div class="innertext"> 
+                <strong>Welcome</strong> </br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae molestias qui ratione iure commodi rem sit minus illo nobis, numquam vel ab error explicabo quisquam voluptates in odit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aspernatur consequuntur facere omnis blanditiis in quod dignissimos recusandae expedita similique officia ipsa itaque harum voluptate, temporibus doloremque molestias illum magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat veniam incidunt possimus aperiam alias cumque nesciunt culpa earum commodi velit quibusdam voluptates unde, tempore obcaecati. Doloribus et non nostrum! Veritatis?
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="leftcolumn">
+        <div class="innertext">
+           <strong>Left Column</strong> </br> Lorem ipsum dolor sit amet consectetur ad Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione culpa amet quaerat, esse id similique exercitationem repudiandae, officia neque iusto quisquam quo totam maiores ullam quis nam recusandae blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium optio ipsum consequatur nostrum delectus aliquam quas, nihil reiciendis sed, perspiciatis animi dolorem. A quasi aliquid perferendis necessitatibus error cupiditate fuga.
+
+        </div>
+
+    </div>
+    <div id="rightcolumn">
+        <div class="innertext">
+            <strong>Right Column</strong> </br> Lorem ipsum dolor sit amet consecte Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis unde harum dolores tempora nisi praesentium architecto, repellendus autem aliquid dolor. Quibusdam, nulla minus. Doloremque dolore pariatur excepturi earum ut quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, eius molestias voluptatum rem perspiciatis libero incidunt possimus harum culpa veritatis sunt nostrum recusandae veniam deleniti. Accusantium aliquam facilis nemo eos.
+        </div>
+    </div>
+
+    <div id="footer"> Footer</div>
+    
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
